@@ -1,6 +1,6 @@
 # Customer-Management
 
-CREATE TABLE `customers`.`organization` (
+CREATE TABLE `organization` (
   `id` INT NOT NULL AUTO_INCREMENT,
   `loginId` VARCHAR(45) NOT NULL,
   `password` VARCHAR(45) NOT NULL,
@@ -9,6 +9,8 @@ CREATE TABLE `customers`.`organization` (
   INDEX `cusId_idx` (`customerId` ASC) VISIBLE,
   CONSTRAINT `cusId`
     FOREIGN KEY (`customerId`)
-    REFERENCES `customers`.`customer` (`id`)
+    REFERENCES `customer` (`id`)
     ON DELETE NO ACTION
-    ON UPDATE NO ACTION);
+    ON UPDATE NO ACTION
+);
+
