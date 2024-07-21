@@ -14,3 +14,6 @@ CREATE TABLE `organization` (
     ON UPDATE NO ACTION
 );
 
+## JSON Web Token(JWT)
+- https://jwt.io/ website to get secret key.
+
