@@ -1,5 +1,16 @@
 # Customer-Management
+## Overview
+- This project provides a simple User Management System with functionalities for user registration and login. It is built using Java Servlets, JSP, and MySQL. The system allows users to register an account and log in using their credentials.
 
+## Project Structure
+The project consists of the following components:
+
+- Servlets: Java classes handling HTTP requests and responses.
+- JSP Pages: HTML pages with embedded Java code for dynamic content.
+- Database: MySQL database with tables for user data.
+- Configuration: Settings and properties files for database connection and other configurations.
+
+  
 CREATE TABLE `organization` (
   `id` INT NOT NULL AUTO_INCREMENT,
   `loginId` VARCHAR(45) NOT NULL,
