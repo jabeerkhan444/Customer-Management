@@ -57,3 +57,5 @@ Create a database named 'customers'. Use the following SQL queries to set up the
 ## JSON Web Token(JWT)
 - https://jwt.io/ website to get secret key.
 
+## Screen Shots
+
