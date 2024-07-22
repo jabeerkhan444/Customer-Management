@@ -42,8 +42,8 @@ Create a database named 'customers'. Use the following SQL queries to set up the
 - Go to File > New > Dynamic Web Project.
 - Enter the project name and configure the settings (target runtime, etc.), then click Finish.
 2. Add Required JARs to the Project:
-  Jar downloaded from https://mvnrepository.com/
-  1. mysql-connector-j-8.3.0
+  Jar downloaded from https://mvnrepository.com/ </br>
+      1. mysql-connector-j-8.3.0
   2. jbcrypt-0.4
   3. json-20210307
   4. jjwt-0.9.1
