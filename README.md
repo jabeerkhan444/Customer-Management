@@ -44,17 +44,16 @@ Create a database named 'customers'. Use the following SQL queries to set up the
 2. Add Required JARs to the Project:
   Jar downloaded from https://mvnrepository.com/ </br>
       1. mysql-connector-j-8.3.0
-  2. jbcrypt-0.4
-  3. json-20210307
-  4. jjwt-0.9.1
-  5. jaxb-runtime-2.3.1
-  6. jaxb-api-2.3.1
-  7. javax.mail-1.6.0
-  8. jackson-databind-2.13.3
-  9. jackson-core-2.13.3
-  10. jackson-annotations-2.13.3
-  11. activation-1.1
-
+      2. jbcrypt-0.4
+      3. json-20210307
+      4. jjwt-0.9.1
+      5. jaxb-runtime-2.3.1
+      6. jaxb-api-2.3.1
+      7. javax.mail-1.6.0
+      8. jackson-databind-2.13.3
+      9. jackson-core-2.13.3
+      10. jackson-annotations-2.13.3
+      11. activation-1.1
 ## JSON Web Token(JWT)
 - https://jwt.io/ website to get secret key.
 
