@@ -16,12 +16,25 @@ Create a database named 'customers'. Use the following SQL queries to set up the
 
 - Table for Organization </br>
 
-    CREATE TABLE users ( </br>
-        id INT AUTO_INCREMENT PRIMARY KEY, </br>
-        login_id VARCHAR(255) UNIQUE NOT NULL, </br>
-        password VARCHAR(255) NOT NULL </br>
+    CREATE TABLE 'organization' ( </br>
+        'orgId' INT AUTO_INCREMENT PRIMARY KEY, </br>
+        'login_id' VARCHAR(255) UNIQUE NOT NULL, </br>
+        'password' VARCHAR(255) NOT NULL </br>
     ); </br>
 
+- Table for Customers </br>
+    CREATE TABLE customer ( </br>
+        'id' INT AUTO_INCREMENT PRIMARY KEY, </br>
+        'first_name' VARCHAR(50) NOT NULL, </br>
+        'last_name' VARCHAR(50) NOT NULL, </br>
+        'address' VARCHAR(100),</br>
+        'city' VARCHAR(50),</br>
+        'state' VARCHAR(100),</br>
+        'email' VARCHAR(100) UNIQUE NOT NULL,</br>
+        'phone' VARCHAR(20),</br>
+        'orgId' INT,</br>
+        FOREIGN KEY (orgId) REFERENCES organization(id)</br>
+    );</br>
 
 
   
