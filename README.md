@@ -35,22 +35,25 @@ Create a database named 'customers'. Use the following SQL queries to set up the
         'orgId' INT,</br>
         FOREIGN KEY (orgId) REFERENCES organization(id)</br>
     );</br>
+## Eclipse Setup
+1. Create a New Dynamic Web Project:
 
-
-  
-CREATE TABLE `organization` (
-  `id` INT NOT NULL AUTO_INCREMENT,
-  `loginId` VARCHAR(45) NOT NULL,
-  `password` VARCHAR(45) NOT NULL,
-  `customerId` INT NOT NULL,
-  PRIMARY KEY (`id`),
-  INDEX `cusId_idx` (`customerId` ASC) VISIBLE,
-  CONSTRAINT `cusId`
-    FOREIGN KEY (`customerId`)
-    REFERENCES `customer` (`id`)
-    ON DELETE NO ACTION
-    ON UPDATE NO ACTION
-);
+- Open Eclipse.
+- Go to File > New > Dynamic Web Project.
+- Enter the project name and configure the settings (target runtime, etc.), then click Finish.
+2. Add Required JARs to the Project:
+  Jar downloaded from https://mvnrepository.com/
+  1. mysql-connector-j-8.3.0
+  2. jbcrypt-0.4
+  3. json-20210307
+  4. jjwt-0.9.1
+  5. jaxb-runtime-2.3.1
+  6. jaxb-api-2.3.1
+  7. javax.mail-1.6.0
+  8. jackson-databind-2.13.3
+  9. jackson-core-2.13.3
+  10. jackson-annotations-2.13.3
+  11. activation-1.1
 
 ## JSON Web Token(JWT)
 - https://jwt.io/ website to get secret key.
