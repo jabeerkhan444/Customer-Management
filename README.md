@@ -14,7 +14,8 @@ The project consists of the following components:
 1. Database Schema
 Create a database named 'customers'. Use the following SQL queries to set up the required tables:
 
-- Users Table </br>
+- Table for Organization </br>
+
 CREATE TABLE users ( </br>
     id INT AUTO_INCREMENT PRIMARY KEY, </br>
     login_id VARCHAR(255) UNIQUE NOT NULL, </br>
