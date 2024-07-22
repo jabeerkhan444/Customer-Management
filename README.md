@@ -10,6 +10,19 @@ The project consists of the following components:
 - Database: MySQL database with tables for user data.
 - Configuration: Settings and properties files for database connection and other configurations.
 
+## Database Setup
+1. Database Schema
+Create a database named 'customers'. Use the following SQL queries to set up the required tables:
+
+Users Table
+CREATE TABLE users (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    login_id VARCHAR(255) UNIQUE NOT NULL,
+    password VARCHAR(255) NOT NULL
+);
+
+
+
   
 CREATE TABLE `organization` (
   `id` INT NOT NULL AUTO_INCREMENT,
