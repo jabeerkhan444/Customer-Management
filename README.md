@@ -96,11 +96,14 @@ Create a database named 'customers'. Use the following SQL queries to set up the
 
 - Searched by city
 
-  ![Screenshot 2024-07-24 153510](https://github.com/user-attachments/assets/aeeecde6-d1d5-495a-9b59-5b95c5d4ec8a)
+  ![Screenshot 2024-07-24 154607](https://github.com/user-attachments/assets/f5ba7297-ec1b-4544-ae3c-757711be3542)
 
 - Searched by email
 
-  ![Screenshot 2024-07-24 154003](https://github.com/user-attachments/assets/8fa6809c-d723-4ce9-a7c6-85629f74fc40)
+  ![Screenshot 2024-07-24 154457](https://github.com/user-attachments/assets/6e0240cd-8a8f-4173-8763-f344ec77b380)
 
+- Searched by phone
+
+  ![Screenshot 2024-07-24 154755](https://github.com/user-attachments/assets/0afef750-81ad-4ef3-b8d3-cb28bda592a9)
 
 
