@@ -68,7 +68,24 @@ Create a database named 'customers'. Use the following SQL queries to set up the
 
 - Add Customer
 
-  ![Screenshot 2024-07-23 121615](https://github.com/user-attachments/assets/a3b112ca-5329-416d-8c51-334d1e345ef5)
+  ![Screenshot 2024-07-24 150630](https://github.com/user-attachments/assets/62b5489e-cb49-4f80-8a36-b6d4a5bd7125)
+
+- After adding one customer
+
+  ![Screenshot 2024-07-24 150757](https://github.com/user-attachments/assets/4c5f6ea6-4a8b-4ed6-89ae-75cc6b90416e)
+
+- Update Customer
+
+  ![Screenshot 2024-07-24 151225](https://github.com/user-attachments/assets/19ef40f2-7b31-4494-9b00-6a328e233b1d)
+
+- Updated Customer(mail was updated)
+
+  ![Screenshot 2024-07-24 151458](https://github.com/user-attachments/assets/1545af0a-a79f-40dd-bea8-b9c3be099b6b)
+
+- Deleted the above Customer
+
+  ![Screenshot 2024-07-24 152629](https://github.com/user-attachments/assets/9ff350a3-ddaa-4c95-b7af-1f26be831557)
+
 
 
 
