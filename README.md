@@ -10,6 +10,11 @@ The project consists of the following components:
 - Database: MySQL database with tables for user data.
 - Configuration: Settings and properties files for database connection and other configurations.
 
+## How to run this project?
+1. Clone the Repository:
+    - Open a terminal and clone the repository using the command </br>
+        git clone https://github.com/your-username/your-repo-name.git
+
 ## Database Setup
 1. Database Schema
 Create a database named 'customers'. Use the following SQL queries to set up the required tables:
