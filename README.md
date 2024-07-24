@@ -58,4 +58,7 @@ Create a database named 'customers'. Use the following SQL queries to set up the
 - https://jwt.io/ website to get secret key.
 
 ## Screen Shots
+- Registration and Login
+
+  ![Screenshot 2024-07-21 231031](https://github.com/user-attachments/assets/cabed7dd-2d8e-41e7-91f8-bba41095891d)
 
