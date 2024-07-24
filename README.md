@@ -86,6 +86,21 @@ Create a database named 'customers'. Use the following SQL queries to set up the
 
   ![Screenshot 2024-07-24 152629](https://github.com/user-attachments/assets/9ff350a3-ddaa-4c95-b7af-1f26be831557)
 
+- Synchronized customer list
+
+  ![Screenshot 2024-07-24 152957](https://github.com/user-attachments/assets/98a70dd7-a476-48e3-be62-debd11682220)
+
+- Searched by first name
+
+  ![Screenshot 2024-07-24 153315](https://github.com/user-attachments/assets/59e18e34-5468-4ac6-9e57-b617b85c72f1)
+
+- Searched by city
+
+  ![Screenshot 2024-07-24 153510](https://github.com/user-attachments/assets/aeeecde6-d1d5-495a-9b59-5b95c5d4ec8a)
+
+- Searched by email
+
+  ![Screenshot 2024-07-24 154003](https://github.com/user-attachments/assets/8fa6809c-d723-4ce9-a7c6-85629f74fc40)
 
 
 
